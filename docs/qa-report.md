@@ -48,7 +48,7 @@ The initial environment was not ready to run the application:
 - Docker Desktop's engine was stopped.
 - After Docker started, the existing PostgreSQL data volume contained a
   database cluster without the configured `trr_local` role, causing database
-authentication and migration to fail.
+  authentication and migration to fail.
 
 To get the app running, Docker Desktop was started, an ignored local `.env` was
 created with local database settings and a generated password, and PostgreSQL
